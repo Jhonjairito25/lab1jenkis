@@ -1,11 +1,10 @@
-﻿
-pipeline {
-agent any
-stages {
-stage('Hola') {
-steps {
-echo 'Hola Jenkins!'
-}
-}
-}
+﻿pipeline {
+    agent any
+    stages {
+        stage('Hola') {
+            steps {
+                echo "Hola Jenkins!"
+            }
+        }
+    }
 }
