@@ -1,9 +1,9 @@
 ﻿pipeline {
     agent any
     stages {
-        stage('Hola') {
+        stage("Hola") {
             steps {
-                echo 'Hola Jenkins!'
+                echo "Hola Jenkins!"
             }
         }
     }
